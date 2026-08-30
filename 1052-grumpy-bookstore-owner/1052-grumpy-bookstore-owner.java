@@ -1,12 +1,15 @@
 class Solution {
     public int maxSatisfied(int[] arr, int[] grumpy, int k) {
-        int n=arr.length,i=0,j=k-1,unsatisfied=0;
+        int n=arr.length;
+        int i=0,j=k-1;
+        int unsatisfied=0;
         int a=i,b=j,maxUnsatisfied=0;
+
         for(int x=i;x<=j;x++){
             if(grumpy[x]==1) unsatisfied += arr[x];
         }
         while(j<n){
-            if(maxUnsatisfied<unsatisfied){
+            if(maxUnsatisfied < unsatisfied){
                 maxUnsatisfied=unsatisfied;
                 a=i; b=j;
             }
@@ -15,11 +18,11 @@ class Solution {
             if(grumpy[i-1]==1) unsatisfied -= arr[i-1];
         }
         for(int x=a;x<=b;x++){
-            grumpy[x] = 0;
+            grumpy[x]=0;
         }
         int satisfied=0;
         for(int x=0;x<n;x++){
-            if(grumpy[x]==0) satisfied +=arr[x];
+            if(grumpy[x]==0) satisfied += arr[x];
         }
         return satisfied;
     }
