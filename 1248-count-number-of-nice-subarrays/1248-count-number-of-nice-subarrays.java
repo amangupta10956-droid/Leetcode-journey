@@ -1,22 +1,22 @@
 class Solution {
     public int numberOfSubarrays(int[] arr, int k) {
-        int i=0,j=0,a=0,b=0,n=arr.length,k2=0,count=0;
-        while(i<n && arr[i]%2==0) i++;
+        int i=0,b=0,a=0,j=0,count=0,k2=0,n=arr.length;
+        while(i<n && arr[i]%2==0)i++;
         while(j<n && k2<k) if(arr[j++]%2!=0) k2++;
         if(k2<k) return 0;
         j--;
         b=j+1;
         while(b<n && arr[b]%2==0) b++;
         b--;
-        while(b<n) {   //Sliding window
-        count += (i-a+1) * (b-j+1);
-        a=i+1;  //Old location of i + 1
-        i++;
-       while(i<n && arr[i]%2==0) i++;
-       j=b+1;
-       b=j+1;
-       while(b<n && arr[b]%2==0) b++;
-       b--;
+        while(b<n){  //Sliding window
+          count += (i-a+1) * (b-j+1);
+          a=i+1;  //old location of i + 1
+          i++;
+          while(i<n && arr[i]%2==0) i++;
+          j=b+1;
+          b=j+1;
+          while(b<n && arr[b]%2==0) b++ ;
+          b--;
         }
         return count;
     }
