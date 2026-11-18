@@ -69,4 +69,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0904-fruit-into-baskets](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/0904-fruit-into-baskets) |
 | [1248-count-number-of-nice-subarrays](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/1248-count-number-of-nice-subarrays) |
+## Linked List
+|  |
+| ------- |
+| [0876-middle-of-the-linked-list](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/0876-middle-of-the-linked-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0876-middle-of-the-linked-list](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/0876-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
