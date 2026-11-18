@@ -67,14 +67,21 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/0141-linked-list-cycle) |
 | [0904-fruit-into-baskets](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/0904-fruit-into-baskets) |
 | [1248-count-number-of-nice-subarrays](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/1248-count-number-of-nice-subarrays) |
 ## Linked List
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/0141-linked-list-cycle) |
 | [0876-middle-of-the-linked-list](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/0141-linked-list-cycle) |
 | [0876-middle-of-the-linked-list](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/0876-middle-of-the-linked-list) |
+## Floyd's Cycle Finding Algorithm
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/amangupta10956-droid/Leetcode-journey/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
